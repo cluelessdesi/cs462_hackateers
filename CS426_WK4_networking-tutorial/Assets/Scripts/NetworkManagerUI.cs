@@ -21,6 +21,7 @@ public class NetworkManagerUI : MonoBehaviour
     // max number of players
     [SerializeField] private int maxPlayers = 4;
     // join code
+    
     public string joinCode;
 
     [SerializeField] private TMP_InputField joinCodeInputField;
