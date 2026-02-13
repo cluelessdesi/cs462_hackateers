@@ -13,20 +13,31 @@ public class HitMessageUI : MonoBehaviour
     private void Awake()
     {
         Instance = this;
-        if (messageText != null) messageText.gameObject.SetActive(false);
+        messageText.gameObject.SetActive(false);
     }
 
     private void Update()
     {
-        if (messageText != null && messageText.gameObject.activeSelf && Time.time >= hideAt)
+        if (messageText.gameObject.activeSelf && Time.time >= hideAt)
             messageText.gameObject.SetActive(false);
     }
 
     public void ShowLocal(string msg)
     {
-        if (messageText == null) return;
         messageText.text = msg;
         messageText.gameObject.SetActive(true);
         hideAt = Time.time + showSeconds;
+    }
+
+    public void ShowLocalQ(string msg)
+    {
+        messageText.text = msg;
+        messageText.gameObject.SetActive(true);
+        hideAt = 1000000;
+    }
+
+    public void HideLocal()
+    {
+        messageText.gameObject.SetActive(false);
     }
 }
