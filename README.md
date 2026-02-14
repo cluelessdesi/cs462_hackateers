@@ -1,5 +1,5 @@
 # Group Information
-Group Name: The Three Hackateers
+Group Name: The Three Hackateers <br />
 Group Number: 7
 Names: Ivan Pato, Ibrahim Abushalanfah, Sufiyan Shariff
 
