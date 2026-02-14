@@ -8,9 +8,9 @@ public class Target : NetworkBehaviour
 
     private static List<string> hints = new List<string>(){
 
-        "A GPU (Graphics Processing Unit) is a specialized processor designed to handle many calculations at the same time.",
-        "More hints to come :p",
-        "Just want functionality for now"
+        "The GPU is responsible for rendering images, video, and graphics on your screen.",
+        "GPUs are optimized for massive parallel processing, making them great for graphics and AI workloads.",
+        "A stronger GPU improves performance in games, video editing, and 3D applications."
     };
 
     private void OnCollisionEnter(Collision collision)

@@ -8,9 +8,9 @@ public class RamTarget : NetworkBehaviour
 
     private static List<string> hints = new List<string>(){
 
-        "Ram does this.",
-        "And this",
-        "Wow this too?"
+        "RAM temporarily stores data and programs that the CPU is actively using.",
+        "More RAM allows you to run more applications at once without slowing down.",
+        "RAM is volatile, meaning everything in it is cleared when the computer powers off."
     };
    
     private void OnCollisionEnter(Collision collision)

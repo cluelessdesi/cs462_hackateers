@@ -8,9 +8,9 @@ public class CPUTarget : NetworkBehaviour
 
     private static List<string> hints = new List<string>(){
 
-        "CPUs do wat now?!",
-        "And CPUs are in charge of",
-        "Cpus also do this wow"
+        "The CPU executes instructions and performs calculations for almost every program.",
+        "CPU clock speed is commonly measured in gigahertz (GHz)",
+        "A faster CPU can process more instructions per second."
     };
    
     private void OnCollisionEnter(Collision collision)
